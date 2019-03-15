@@ -1,0 +1,42 @@
+header, main, footer {
+    padding-left: 205px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 5px;
+    }
+}
+
+html, body, .block {
+    height: 100%;
+}
+
+.pin-top {
+    position: relative;
+}
+
+.pin-bottom {
+    position: relative;
+}
+
+.pinned {
+    position: fixed !important;
+}
+
+#wrapper {
+    height: 0px;
+}
+.css-selector {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.sidenav {
+ background-image: url("/static/main/white-waves.png");
+ background-color: #cccccc;
+}
+
+body {
+ background-color: lightgray;
+}
